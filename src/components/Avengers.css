@@ -1,0 +1,22 @@
+li {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    background: silver;
+    opacity: 0.8;
+    margin: 10px;
+    width: 450px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: .2s linear;
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+    background: black;
+    color: silver;
+    cursor: pointer;
+  }
